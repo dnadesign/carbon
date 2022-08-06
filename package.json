@@ -1,0 +1,28 @@
+{
+  "name": "carbon-components",
+  "description": "Carbon Components is a component library for IBM Cloud",
+  "homepage": "http://carbondesignsystem.com/",
+  "version": "9.91.5",
+  "module": "es/index.js",
+  "main": "umd/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM/carbon-components.git"
+  },
+  "files": [
+    "css/**/*",
+    "es/**/*",
+    "html/**/*",
+    "scripts/**/*",
+    "scss/**/*",
+    "src/**/*",
+    "umd/**/*"
+  ],
+  "dependencies": {
+    "carbon-icons": "^7.0.7",
+    "flatpickr": "4.5.7",
+    "lodash.debounce": "^4.0.8",
+    "warning": "^3.0.0"
+  },
+  "license": "Apache-2.0"
+}
